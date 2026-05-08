@@ -1,0 +1,121 @@
+# ==========================================
+# HLV G-Lattice Simulation Lab - .gitignore
+# ==========================================
+
+# --- Python core ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Packaging / installers / wheels ---
+*.whl
+*.egg
+*.egg-info/
+.installed.cfg
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+jupyter_run.log
+.ipynb
+
+# --- Data & serialized outputs (keep .gitkeep to preserve folders) ---
+# Use .gitkeep files to track empty directories
+data/samples/*
+!data/samples/.gitkeep
+data/spectra/*
+!data/spectra/.gitkeep
+data/vortex/*
+!data/vortex/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+
+# Common large data formats
+*.csv
+*.dat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+
+# --- Generated figures (keep .gitkeep) ---
+figures/lattice_visuals/*
+!figures/lattice_visuals/.gitkeep
+figures/spectra/*
+!figures/spectra/.gitkeep
+figures/vortex/*
+!figures/vortex/.gitkeep
+figures/paper/*
+!figures/paper/.gitkeep
+
+# Image and binary outputs
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# --- Logs, caches, coverage, testing ---
+*.log
+*.out
+*.err
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.pyre/
+.pytype/
+.hypothesis/
+
+# --- IDEs and editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Misc / local configs ---
+local_settings.py
+.env
+.env.*.local
+secrets.json
+credentials.json
+
+# --- Optional: lockfiles or environment exports you may want to ignore ---
+# Uncomment if you prefer not to track these
+# environment.yml
+# requirements.txt
+
+# End of .gitignore
