@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "HLV G-Lattice Simulation Lab"
+message: "If you use this software or the associated computational framework in your research, please cite it using the metadata below."
+type: software
+authors:
+  - given-names: "Marcel"
+    family-names: "Krüger"
+    email: "marcelkrueger092@gmail.com"
+    affiliation: "Independent Researcher, Meiningen, Germany"
+    ORCID: "0009-0002-5709-9729"
+  - given-names: "Don Michael"
+    name-particle: "Jr."
+    family-names: "Feeney"
+    email: "dfeen87@gmail.com"
+    affiliation: "Independent Researcher, Pennsylvania, USA"
+    ORCID: "0009-0003-1350-4160"
+version: "0.1.0"
+date-released: "2026-05-08"
+abstract: >
+  A falsification-oriented computational testbed for the Helix-Light-Vortex (HLV) framework. 
+  This repository translates 6D-to-3D quasicrystalline geometries into reproducible Python 
+  simulations to evaluate continuum recovery, spectral stability, and topological vortex 
+  dynamics against strict null models.
+keywords:
+  - "Helix-Light-Vortex"
+  - "quasicrystal"
+  - "cut-and-project"
+  - "graph Laplacian"
+  - "effective field theory"
+  - "computational physics"
+license: "MIT"
+repository-code: "https://github.com/dfeen87/HLV-G-Lattice-Simulation-Lab"
