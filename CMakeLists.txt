@@ -24,7 +24,7 @@ endif()
 # 2. Dependencies
 # ------------------------------------------------------------
 find_package(Eigen3 REQUIRED NO_MODULE)
-find_package(nlohmann_json 3.2.0 REQUIRED)
+find_package(nlohmann_json REQUIRED)
 find_package(pybind11 REQUIRED)
 find_package(Python COMPONENTS Interpreter Development REQUIRED)
 
