@@ -81,34 +81,93 @@ Introduce local shifts $W\to W+\delta W(x)$ to create projection‑mismatch edge
 * Provide scripts to regenerate null models and to reproduce figures from raw outputs.  
 * Pre‑register analysis order and acceptance logic to avoid post‑hoc selection.
 
-## 6. References
+Absolutely, Don — here’s your references section **cleanly formatted in Markdown**, preserving your numbering, spacing, and citation markers while making it look professional and publication‑ready.
 
-[cite_start][1] Y. Meyer, Algebraic Numbers and Harmonic Analysis, North-Holland, Amsterdam (1972). [cite: 401]
-[cite_start][2] N. G. de Bruijn, Algebraic theory of Penrose's non-periodic tilings of the plane, Indagationes Mathematicae 43, 39-52 (1981). [cite: 402]
-[cite_start][3] P. Kramer and R. Neri, On periodic and non-periodic space fillings of Em obtained by projection, Acta Crystallographica A 40, 580-587 (1984). [cite: 403]
-[cite_start][4] M. Duneau and A. Katz, Quasiperiodic patterns, Physical Review Letters 54, 2688-2691 (1985). [cite: 404]
-[5] M. Baake and U. Grimm, Aperiodic Order. Vol. 1: A Mathematical Invitation, Cambridge University Press, Cambridge (2013). [cite: 405]
-[cite_start][6] M. Senechal, Quasicrystals and Geometry, Cambridge University Press, Cambridge (1995). [cite: 406]
-[cite_start][7] C. Janot, Quasicrystals: A Primer, Oxford University Press, Oxford (1994). [cite: 407]
-[cite_start][8] P. Kuchment, Floquet theory for partial differential equations, Operator Theory: Advances and Applications 60, Birkhäuser (1993). [cite: 408]
-[cite_start][9] F. R. K. Chung, Spectral Graph Theory, American Mathematical Society, Providence (1997). [cite: 409]
-[cite_start][10] M. Belkin and P. Niyogi, Convergence of Laplacian eigenmaps, Advances in Neural Information Processing Systems 19, 129-136 (2007). [cite: 410]
-[cite_start][11] R. R. Coifman and S. Lafon, Diffusion maps, Applied and Computational Harmonic Analysis 21, 5-30 (2006). [cite: 411]
-[cite_start][12] M. E. Peskin and D. V. Schroeder, An Introduction to Quantum Field Theory, Westview Press, Boulder (1995). [cite: 412]
-[13] S. Weinberg, The Quantum Theory of Fields, Vol. I, Cambridge University Press, Cambridge (1995). [cite: 413]
-[cite_start][14] K. G. Wilson, Confinement of quarks, Physical Review D 10, 2445-2459 (1974). [cite: 414]
-[cite_start][15] T. H. R. Skyrme, A nonlinear field theory, Proceedings of the Royal Society A 260, 127-138 (1961). [cite: 415]
-[cite_start][16] H. B. Nielsen and P. Olesen, Vortex-line models for dual strings, Nuclear Physics B 61, 45-61 (1973). [cite: 416]
-[cite_start][17] R. Jackiw and C. Rebbi, Solitons with fermion number 1/2, Physical Review D 13, 3398-3409 (1976). [cite: 417]
-[cite_start][18] A. M. Polyakov, Compact gauge fields and the infrared catastrophe, Physics Letters B 59, 82-84 (1975). [cite: 418]
-[cite_start][19] M. Z. Hasan and C. L. Kane, Colloquium: Topological insulators, Reviews of Modern Physics 82, 3045-3067 (2010). [cite: 419]
-[20] X.-G. Wen, Colloquium: Zoo of quantum-topological phases of matter, Reviews of Modern Physics 89, 041004 (2017). [cite: 420]
-[cite_start][21] D. Varjas, A. Lau, K. Pöyhönen, A. R. Akhmerov, D. I. Pikulin, and I. C. Fulga, Topological phases without crystalline counterparts, Physical Review Letters 123, 196401 (2019). [cite: 421]
-[22] D.-T. Tran, A. Dauphin, N. Goldman, and P. Gaspard, Topological Hofstadter insulators in a two-dimensional quasicrystal, Physical Review B 91, 085125 (2015). [cite: 422]
-[cite_start][23] C. W. Duncan, S. Manna, and A. E. B. Nielsen, Topological models in rotationally symmetric quasicrystals, Physical Review B 101, 115413 (2020). [cite: 423]
-[cite_start][24] H. Edelsbrunner, D. Letscher, and A. Zomorodian, Topological persistence and simplification, Discrete & Computational Geometry 28, 511-533 (2002). [cite: 424]
-[cite_start][25] G. Carlsson, Topology and data, Bulletin of the American Mathematical Society 46, 255-308 (2009). [cite: 425]
-[cite_start][26] M. Krüger, A Compact Core Formulation of the Helix-Light-Vortex Framework, preprint (2026). [cite: 429]
-[cite_start][27] M. Krüger, A Mathematical Unification of the Helix-Light-Vortex Framework, preprint (2026). [cite: 430]
-[cite_start][28] M. Krüger, Topological Vortex Solutions in a Quasicrystalline Background, preprint (2026). [cite: 431]
+---
+
+## 6. References**
+
+1. Y. Meyer, *Algebraic Numbers and Harmonic Analysis*, North-Holland, Amsterdam (1972).  
+   <sub>[cite: 401]</sub>
+
+2. N. G. de Bruijn, *Algebraic theory of Penrose's non-periodic tilings of the plane*, Indagationes Mathematicae **43**, 39–52 (1981).  
+   <sub>[cite: 402]</sub>
+
+3. P. Kramer and R. Neri, *On periodic and non-periodic space fillings of Em obtained by projection*, Acta Crystallographica A **40**, 580–587 (1984).  
+   <sub>[cite: 403]</sub>
+
+4. M. Duneau and A. Katz, *Quasiperiodic patterns*, Physical Review Letters **54**, 2688–2691 (1985).  
+   <sub>[cite: 404]</sub>
+
+5. M. Baake and U. Grimm, *Aperiodic Order. Vol. 1: A Mathematical Invitation*, Cambridge University Press (2013).  
+   <sub>[cite: 405]</sub>
+
+6. M. Senechal, *Quasicrystals and Geometry*, Cambridge University Press (1995).  
+   <sub>[cite: 406]</sub>
+
+7. C. Janot, *Quasicrystals: A Primer*, Oxford University Press (1994).  
+   <sub>[cite: 407]</sub>
+
+8. P. Kuchment, *Floquet theory for partial differential equations*, Operator Theory: Advances and Applications **60**, Birkhäuser (1993).  
+   <sub>[cite: 408]</sub>
+
+9. F. R. K. Chung, *Spectral Graph Theory*, American Mathematical Society (1997).  
+   <sub>[cite: 409]</sub>
+
+10. M. Belkin and P. Niyogi, *Convergence of Laplacian eigenmaps*, Advances in Neural Information Processing Systems **19**, 129–136 (2007).  
+    <sub>[cite: 410]</sub>
+
+11. R. R. Coifman and S. Lafon, *Diffusion maps*, Applied and Computational Harmonic Analysis **21**, 5–30 (2006).  
+    <sub>[cite: 411]</sub>
+
+12. M. E. Peskin and D. V. Schroeder, *An Introduction to Quantum Field Theory*, Westview Press (1995).  
+    <sub>[cite: 412]</sub>
+
+13. S. Weinberg, *The Quantum Theory of Fields, Vol. I*, Cambridge University Press (1995).  
+    <sub>[cite: 413]</sub>
+
+14. K. G. Wilson, *Confinement of quarks*, Physical Review D **10**, 2445–2459 (1974).  
+    <sub>[cite: 414]</sub>
+
+15. T. H. R. Skyrme, *A nonlinear field theory*, Proceedings of the Royal Society A **260**, 127–138 (1961).  
+    <sub>[cite: 415]</sub>
+
+16. H. B. Nielsen and P. Olesen, *Vortex-line models for dual strings*, Nuclear Physics B **61**, 45–61 (1973).  
+    <sub>[cite: 416]</sub>
+
+17. R. Jackiw and C. Rebbi, *Solitons with fermion number 1/2*, Physical Review D **13**, 3398–3409 (1976).  
+    <sub>[cite: 417]</sub>
+
+18. A. M. Polyakov, *Compact gauge fields and the infrared catastrophe*, Physics Letters B **59**, 82–84 (1975).  
+    <sub>[cite: 418]</sub>
+
+19. M. Z. Hasan and C. L. Kane, *Colloquium: Topological insulators*, Reviews of Modern Physics **82**, 3045–3067 (2010).  
+    <sub>[cite: 419]</sub>
+
+20. X.-G. Wen, *Colloquium: Zoo of quantum-topological phases of matter*, Reviews of Modern Physics **89**, 041004 (2017).  
+    <sub>[cite: 420]</sub>
+
+21. D. Varjas, A. Lau, K. Pöyhönen, A. R. Akhmerov, D. I. Pikulin, and I. C. Fulga, *Topological phases without crystalline counterparts*, Physical Review Letters **123**, 196401 (2019).  
+    <sub>[cite: 421]</sub>
+
+22. D.-T. Tran, A. Dauphin, N. Goldman, and P. Gaspard, *Topological Hofstadter insulators in a two-dimensional quasicrystal*, Physical Review B **91**, 085125 (2015).  
+    <sub>[cite: 422]</sub>
+
+23. C. W. Duncan, S. Manna, and A. E. B. Nielsen, *Topological models in rotationally symmetric quasicrystals*, Physical Review B **101**, 115413 (2020).  
+    <sub>[cite: 423]</sub>
+
+24. H. Edelsbrunner, D. Letscher, and A. Zomorodian, *Topological persistence and simplification*, Discrete & Computational Geometry **28**, 511–533 (2002).  
+    <sub>[cite: 424]</sub>
+
+25. G. Carlsson, *Topology and data*, Bulletin of the American Mathematical Society **46**, 255–308 (2009).  
+    <sub>[cite: 425]</sub>
+
+26. M. Krüger, *A Compact Core Formulation of the Helix-Light-Vortex Framework*, preprint (2026).  
+    <sub>[cite: 429]</sub>
+
+27. M. Krüger, *A Mathematical Unification of the Helix-Light-Vortex Framework*, preprint (2026).  
+    <sub>[cite: 430]</sub>
+
+28. M. Krüger, *Topological Vortex Solutions in a Quasicrystalline Background*, preprint (2026).  
+    <sub>[cite: 431]</sub>
 [cite_start][29] M. Krüger and D. M. Feeney Jr., A Minimal Control-Theoretic Framework for the Triadic Phase Operator $\Delta\Phi$, preprint (2026). [cite: 432]
