@@ -118,4 +118,21 @@ credentials.json
 # environment.yml
 # requirements.txt
 
+
+# C++ Build Artifacts
+build/
+*.so
+*.o
+*.a
+*.dylib
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.env
+
+# MacOS
+.DS_Store
+
 # End of .gitignore

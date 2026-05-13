@@ -1,11 +1,15 @@
+/*
+ * HLV G-Lattice Simulation Lab
+ * Licensed under the MIT License
+ * * Standalone Bare-Metal Benchmark: 6D-to-3D Generation Stress Test
+ */
+
 #include <iostream>
 #include <vector>
 #include <unordered_set>
 #include <chrono>
 #include <cmath>
 #include <iomanip>
-#include <array>
-#include <tuple>
 
 // 6D Integer Lattice Point
 struct HLVNode {
@@ -30,7 +34,7 @@ struct NodeHasher {
 };
 
 class HLVSolidEngine {
-    // 6D-to-3D Quasicrystalline Projection Constants (from HLV Master Document)
+    // 6D-to-3D Quasicrystalline Projection Constants
     const double phi = (1.0 + std::sqrt(5.0)) / 2.0;
     const double norm = 1.0 / std::sqrt(2.0 * (2.0 + phi));
 
@@ -55,7 +59,7 @@ public:
         long long parent_points_sampled = 0;
         const double window_radius_sq = 1.2; // Acceptance Window W_ball
 
-        std::cout << "Starting HLV Solid Engine: Target 1,000,000 Nodes..." << std::endl;
+        std::cout << "Starting HLV Solid Engine: Target " << target_nodes << " Nodes..." << std::endl;
         auto start = std::chrono::high_resolution_clock::now();
 
         // High-speed 6D Enumeration
@@ -105,10 +109,10 @@ public:
         std::cout << "\n==========================================" << std::endl;
         std::cout << "   HLV SOLID ENGINE BENCHMARK REPORT" << std::endl;
         std::cout << "==========================================" << std::endl;
-        std::cout << "Accepted Nodes:       " << lattice.size() << std::endl;
-        std::cout << "Runtime:              " << std::fixed << std::setprecision(4) << elapsed.count() << " seconds" << std::endl;
+        std::cout << "Accepted Nodes:        " << lattice.size() << std::endl;
+        std::cout << "Runtime:               " << std::fixed << std::setprecision(4) << elapsed.count() << " seconds" << std::endl;
         std::cout << "Parent Points Sampled: " << parent_points_sampled << std::endl;
-        std::cout << "Acceptance Fraction:  " << (double)lattice.size()/parent_points_sampled << std::endl;
+        std::cout << "Acceptance Fraction:   " << (double)lattice.size()/parent_points_sampled << std::endl;
         std::cout << "==========================================" << std::endl;
     }
 };

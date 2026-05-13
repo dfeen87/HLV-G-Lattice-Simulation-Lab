@@ -1,7 +1,6 @@
 /*
  * HLV-G-Lattice-Simulation-Lab
- * 
- * Copyright (c) 2026 Don Michael Feeney Jr., Marcel Krüger
+ * * Copyright (c) 2026 Don Michael Feeney Jr., Marcel Krüger
  * SPDX-License-Identifier: MIT
  */
 
@@ -11,6 +10,7 @@
 
 #include "SimulationContext.hpp"
 #include "GLatticeGenerator.hpp"
+#include "../NeighborGraph.hpp"
 
 namespace py = pybind11;
 using namespace hlv;
@@ -107,5 +107,25 @@ PYBIND11_MODULE(hlv_engine, m) {
              },
              R"pbdoc(
                 Return generation metadata as a pretty-printed JSON string.
+             )pbdoc");
+
+    // -------------------------------
+    // 3. NeighborGraph Binding (v0.3.0)
+    // -------------------------------
+    py::class_<NeighborGraph>(m, "NeighborGraph",
+        R"pbdoc(
+            High-performance KD-Tree spatial graph constructor.
+            
+            Uses nanoflann to compute k-nearest neighbors in O(N log N) time.
+        )pbdoc")
+        .def(py::init<const Eigen::MatrixXd &>(), py::arg("physical_nodes"),
+            R"pbdoc(
+                Initialize the KD-Tree with a dense Eigen matrix of 3D physical nodes.
+            )pbdoc")
+        .def("compute_knn_graph", &NeighborGraph::compute_knn_graph, py::arg("k"),
+             R"pbdoc(
+                Compute the k-nearest neighbor graph.
+                
+                Returns a list of tuples: (row_idx, col_idx, squared_distance).
              )pbdoc");
 }
