@@ -51,12 +51,6 @@ HLV-G-Lattice-Simulation-Lab/
 ├── THEORY.md
 ├── requirements.txt
 ├── CMakeLists.txt
-├── hlv_g_lattice/                       # Python package
-│   ├── lattice6d/                       # 6D parent lattice and projection
-│   ├── lattice3d/                       # 3D graph/laplacian structures
-│   ├── simulations/                     # Vortex and null-model simulations
-│   ├── utils/                           # Geometry, plotting, export helpers
-│   └── tests/                           # Python test modules
 ├── src/                                 # Native C++ entrypoints and headers
 │   ├── cpp_core/                        # Core C++ simulation and pybind layer
 │   ├── external/
