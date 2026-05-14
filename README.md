@@ -47,6 +47,7 @@ HLV-G-Lattice-Simulation-Lab/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
+├── PAPER.md
 ├── THEORY.md
 ├── requirements.txt
 ├── CMakeLists.txt
