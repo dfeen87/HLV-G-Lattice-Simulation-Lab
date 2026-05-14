@@ -83,3 +83,5 @@ HLV-G-Lattice-Simulation-Lab/
 - **License:** released under the [MIT License](./LICENSE) for open academic and industrial reuse.
 
 > Reproducibility Disclaimer: Notebook-generated figures are intended for pipeline validation. You may notice minor visual or statistical differences compared to the manuscript-grade figures due to the use of lower-fidelity KDTree connectivity and automated rendering settings. The underlying physics and numerical targets remain identical.
+>
+> Note: The /figures and /data/exports directories are preserved via .gitkeep; all artifacts are generated dynamically by the notebooks.
