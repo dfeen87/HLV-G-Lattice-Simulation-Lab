@@ -1,7 +1,6 @@
 # HLV G-Lattice Simulation Lab
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=c%2B%2B&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Research%20Prototype-6f42c1)
 
