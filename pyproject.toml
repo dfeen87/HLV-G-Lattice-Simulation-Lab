@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64", "pybind11>=2.10.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hlv_engine"
+version = "0.6.1"
+description = "HLV G-Lattice Simulation Engine"
+requires-python = ">=3.8"
+authors = [
+    {name = "Don Michael Feeney Jr."}
+]
+dependencies = [
+    "pybind11>=2.10.0",
+    "numpy",
+]
