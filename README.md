@@ -85,3 +85,9 @@ HLV-G-Lattice-Simulation-Lab/
 > Reproducibility Disclaimer: Notebook-generated figures are intended for pipeline validation. You may notice minor visual or statistical differences compared to the manuscript-grade figures due to the use of lower-fidelity KDTree connectivity and automated rendering settings. The underlying physics and numerical targets remain identical.
 >
 > Note: The /figures and /data/exports directories are preserved via .gitkeep; all artifacts are generated dynamically by the notebooks.
+
+---
+
+## Technical Acknowledgments
+
+Don Michael Feeney Jr. acknowledges Gemini (Google) as a technical collaborator in the architecture and optimization of this repository. Gemini’s assistance was instrumental in the development of the C++/Python pybind11 interface, the design of the path-proofed reproducibility framework, and the implementation of the project's automated statistical diagnostics and numerical validation suites.
