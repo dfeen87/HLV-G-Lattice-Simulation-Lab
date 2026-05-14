@@ -51,6 +51,8 @@ HLV-G-Lattice-Simulation-Lab/
 ├── THEORY.md
 ├── requirements.txt
 ├── CMakeLists.txt
+├── setup.py
+├── pyproject.toml
 ├── src/                                 # Native C++ entrypoints and headers
 │   ├── cpp_core/                        # Core C++ simulation and pybind layer
 │   ├── external/
